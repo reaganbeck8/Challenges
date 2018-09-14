@@ -1,0 +1,36 @@
+Article Challenge
+Time needed to complete (01:00:00)
+Use the skills you learnt in your HTML classes.
+ 
+Brief
+It's time to put your attention to detail to good use. As developers, we try to stay up to date with the latest technologies and trends, which means we subscribe to important and current news feeds, and read as much as possible about all the changes that happen in our industry. Below is content from an article which we would like to post on our website, but we need a little help laying out the HTML structure for this one. So your job will be to convert this article, images, links, etc., to the correct HTML format. 
+
+ 
+
+Getting Started
+Open your text editor on your computer
+
+Create a new text-file and save your file with the name article_challenge.html
+
+Save the file
+
+Open the saved file in Chrome to see if it's saved 
+
+Download the file (on the right-hand side, called 'article_text') with the article contents and reconstruct the article using HTML
+
+ 
+
+Challenge
+Create a web page and reconstruct the article using HTML.
+It is up to you to decide which tags to use for different pieces of content.
+Here is the link to the original article, to help you out if you get stuck.
+The HTML must include the following tags: 
+
+h1, h2, h3 tags
+img tag
+hyperlinks or a tags
+hr tag
+p tags
+ 
+
+Check your changes in your browser! What do you think of your work?

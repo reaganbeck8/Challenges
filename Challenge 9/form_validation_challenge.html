@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration Form</title>
+  <style>
+    div .block {
+      margin-left: 150px
+    }
+
+    label {
+      display: inline-block;
+      width: 140px;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Registration Form</h1>
+  <form method="post">
+    <div class="block">
+      <p>
+        <label>User id:</label>
+        <input type="text" id="User id" class="" title="Required and must be of length 5 to 12" style="text-align:center" minlength="5"
+          maxlength="12" placeholder="" pattern="[^\s.]*" required>
+      </p>
+      <p>
+        <label>Password:</label>
+        <input type="password" id="password" minlength="7" maxlength="12" class="" title="Required and must be of length 7 to 12"
+          style="text-align:center" placeholder="" required>
+      </p>
+      <p>
+        <label>Name:</label>
+        <input required pattern="[A-Z{a-Z}]*" oninvalid="setCustomValidity('Please enter alphabet letters only.')" type="text" id="Name"
+          class="" value="" title="Required and alphabets only" style="text-align:center" placeholder="">
+      </p>
+      <p>
+        <label>Address:</label>
+        <input type="text" id="Address" class="" title="Optional" style="text-align:center" placeholder="">
+      </p>
+      <p>
+        <label>Country:</label>
+        <Select title="Required. Must Select a country" required>
+          <option value="0">(Please Select a country)</option>
+          <option value="s">South Africa</option>
+          <option value="z">Zambia</option>
+          <option value="i">Italy</option>
+          <option value="c">Democratic Republic of Congo</option>
+          <option value="a">Angola</option>
+          <option value="e">Egypt</option>
+          <option value="l">Lesotho</option>
+          <option value="n">Namibia</option>
+          <option value="c">Chad</option>
+          <option value="k">Kenya</option>
+          <option value="e">Ethiopia</option>
+        </Select>
+      </p>
+      <p>
+        <label for="code">ZIP code:</label>
+        <input type="text" id="code" name="code" class="" title="Required. Must be numeric only" style="text-align:center" placeholder=""
+          maxlength="4" required pattern="[0-9].*" oninvalid="setCustomValidity('Please enter numbers only')">
+      </p>
+      <p>
+        <label>Email:</label>
+        <input type="email" id="Email" class="" title="Required. Must be a valid email" style="text-align:center" placeholder=""
+          required>
+      </p>
+      <p>
+        <label>Sex:</label>
+        <input type="radio" title="Required." required> Male <input type="radio" title="Required." required> Female
+      </p>
+      <p>
+        <label>Language:</label>
+        <input type="checkbox" title="Required." Optional> English <input type="checkbox" title="Required." Optional> Non
+        English
+      </p>
+      <p>
+        <label for="About">About:</label> &nbsp;
+        <textarea name="About" title="Optional." rows="4" cols="50" style="resize:None"></textarea >
+    </p>
+      <input type="submit" value="Submit Here!" style="font-family:FCZizouSansCond"; margin-right: 50%; font-resize: 18px">
+  </div>
+  </form>
+</body>
+</html>

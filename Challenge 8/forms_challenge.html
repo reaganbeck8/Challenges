@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+    <style>
+        ol {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header Content Starts Here-->
+    <header>
+        <p align="center"><img src="img/logo.png" alt="Coffee logo" class="" width="100" height="100"></p>
+    </header>
+
+    <!--Header Content Ends Here-->
+
+    <!--Main Content Starts Here-->
+    <main>
+        <article>
+            <section style="text-align:center">
+                <h2 style="text-align:center">Please Complete the Form Below</h2>
+                <form action="">
+                    <p>Name</p>
+                    <input type="text" name="Name" value="" class="" style="text-align:center" placeholder="Name" required>
+                    <p>Surname</p>
+                    <input type="text" name="Surname" value="" class="" style="text-align:center" placeholder="Surname" required>
+                    <p>Email</p>
+                    <input type="text" name="Email" value="" class="" style="text-align:center" placeholder="youremail@example.com" required>
+                    <p>Contact Number</p>
+                    <input type="text" name="Phone Number" value="" class="" style="text-align:center" placeholder="Phone Number" required pattern="[0-9]*"
+                    />
+                    <p>Date of Birth</p>
+                    <input style="text-align:center" type="date">
+                    <p>Gender</p>
+                    <Select>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </Select>
+                    <p>Password</p>
+                    <input type="password" name="password" value="" class="" style="text-align:center" placeholder="password" required>
+                    <br>
+                    <h2 style="text-align:center">Quick Survey</h2>
+                    <p>
+                        <ol>
+                            <li>How often do you visit coffee shops?</li>
+                            <br>
+                            <input type="radio" name="" id="" />Never <input type="radio" name="" id="" />Often <input type="radio"
+                                name="" id="" />Frequently
+                            <br>
+                            <br>
+                            <li>What is your favorite coffee shop? Where is it located?</li>
+                            <input type="text" name="Favourite Coffee Shop" value="" class="" style="text-align:center" placeholder="Favourite Coffee Shop"
+                            /> <input type="text" name="Location" value="" class="" style="text-align:center"
+                                placeholder="Location" />
+                            <br>
+                            <br>
+                            <li>What do you typically order to drink?</li> <input type="text" name="Beverage You Prefer"
+                                value="" class="" style="text-align:center" placeholder="Hot Beverage You Prefer?" />
+                            <br>
+                            <br>
+                            <li>Do you prefer large, national chain coffee shops or small, privately owned coffee shops?</li>
+                            <input type="checkbox" name="Large" value="" class="" required/> Large <input type="checkbox"
+                                name="National Chain" value="" class="" required/> National <input type="checkbox" name="Small, Privately owned"
+                                value="" class="" required/> Small, privately owned
+                            <br>
+                            <br>
+                            <li>Comments</li>
+                            <textarea rows="4" cols="50" style="resize:None"></textarea>
+                        </ol>
+                    </p>
+                    <p>
+                        <input style=text-align:center type="submit" name="Submit" value="Send Survey!">
+                    </p>
+
+                    <!--Main Content Ends Here-->
+                </form>
+            </section>
+        </article>
+    </main>
+</body>
+
+</html>
